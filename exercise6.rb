@@ -13,3 +13,4 @@ else
 end
 
 
+puts grocery_list[1]
