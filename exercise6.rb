@@ -14,3 +14,9 @@ end
 
 
 puts grocery_list[1]
+
+
+puts "This is your new grocery list: "
+grocery_list.sort.each do |x|
+	puts "* " + x
+end
