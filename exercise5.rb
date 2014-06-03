@@ -1,5 +1,5 @@
 def f_to_c(temperature)
-	new_temp = (temperature.to_i - 32) * (5/9)
+	new_temp = (temperature.to_i - 32) * (5.0/9)
 	puts new_temp
 end
 
