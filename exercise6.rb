@@ -20,3 +20,12 @@ puts "This is your new grocery list: "
 grocery_list.sort.each do |x|
 	puts "* " + x
 end
+
+grocery_list.delete("salmon")
+grocery_list << ("salmon")
+
+puts "Your grocery list now contains salmon"
+puts "This is your new grocery list: "
+grocery_list.sort.each do |x|
+	puts "* " + x
+end
